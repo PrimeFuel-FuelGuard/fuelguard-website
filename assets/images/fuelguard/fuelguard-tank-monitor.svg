@@ -1,0 +1,114 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#020C1B"/>
+      <stop offset="50%" stop-color="#0A192F"/>
+      <stop offset="100%" stop-color="#0F2B48"/>
+    </linearGradient>
+    <linearGradient id="fuelGrad" x1="0%" y1="100%" x2="0%" y2="0%">
+      <stop offset="0%" stop-color="#0369A1"/>
+      <stop offset="60%" stop-color="#0284C7"/>
+      <stop offset="100%" stop-color="#38BDF8"/>
+    </linearGradient>
+    <linearGradient id="tankShell" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#1E293B"/>
+      <stop offset="50%" stop-color="#334155"/>
+      <stop offset="100%" stop-color="#1E293B"/>
+    </linearGradient>
+    <linearGradient id="pulseGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#38BDF8" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#0284C7" stop-opacity="0.1"/>
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="8" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="800" fill="url(#bgGrad)"/>
+  <rect width="1200" height="800" fill="none" stroke="rgba(56, 189, 248, 0.15)" stroke-width="1"/>
+  
+  <!-- Grid lines -->
+  <g stroke="rgba(56, 189, 248, 0.05)" stroke-width="1">
+    <line x1="0" y1="100" x2="1200" y2="100"/>
+    <line x1="0" y1="200" x2="1200" y2="200"/>
+    <line x1="0" y1="300" x2="1200" y2="300"/>
+    <line x1="0" y1="400" x2="1200" y2="400"/>
+    <line x1="0" y1="500" x2="1200" y2="500"/>
+    <line x1="0" y1="600" x2="1200" y2="600"/>
+    <line x1="0" y1="700" x2="1200" y2="700"/>
+    <line x1="200" y1="0" x2="200" y2="800"/>
+    <line x1="400" y1="0" x2="400" y2="800"/>
+    <line x1="600" y1="0" x2="600" y2="800"/>
+    <line x1="800" y1="0" x2="800" y2="800"/>
+    <line x1="1000" y1="0" x2="1000" y2="800"/>
+  </g>
+
+  <!-- HUD Header -->
+  <rect x="60" y="40" width="1080" height="60" rx="12" fill="rgba(15, 43, 72, 0.6)" stroke="rgba(56, 189, 248, 0.3)" stroke-width="1"/>
+  <circle cx="95" cy="70" r="10" fill="#10B981" filter="url(#glow)"/>
+  <text x="120" y="76" fill="#F8FAFC" font-family="system-ui, sans-serif" font-size="20" font-weight="700">FUELGUARD • TELEMETRÍA IOT DE TANQUES EN TIEMPO REAL</text>
+  <text x="880" y="75" fill="#38BDF8" font-family="system-ui, sans-serif" font-size="14" font-weight="600">SENSOR PROTOCOL: MQTT / HTTPS • ONLINE</text>
+
+  <!-- Tank 1: Stationary Storage -->
+  <g transform="translate(100, 150)">
+    <!-- Tank Body Outline -->
+    <rect x="40" y="100" width="340" height="420" rx="30" fill="url(#tankShell)" stroke="rgba(56, 189, 248, 0.4)" stroke-width="2"/>
+    
+    <!-- Fuel Content Liquid -->
+    <rect x="50" y="210" width="320" height="300" rx="20" fill="url(#fuelGrad)"/>
+    <path d="M50 210 Q 130 195 210 210 T 370 210 L 370 230 L 50 230 Z" fill="#38BDF8" opacity="0.6"/>
+
+    <!-- Tank Level Percentage Badge -->
+    <rect x="130" y="270" width="160" height="60" rx="12" fill="rgba(2, 12, 27, 0.85)" stroke="#38BDF8" stroke-width="2" filter="url(#glow)"/>
+    <text x="210" y="312" fill="#FFFFFF" font-family="system-ui, sans-serif" font-size="34" font-weight="800" text-anchor="middle">84.5%</text>
+
+    <!-- Ultrasonic Sensor on Top -->
+    <rect x="185" y="60" width="50" height="40" rx="6" fill="#0284C7" stroke="#38BDF8" stroke-width="2"/>
+    <circle cx="210" cy="50" r="8" fill="#F59E0B" filter="url(#glow)"/>
+    <!-- Sensor Waves -->
+    <path d="M190 100 Q 210 130 230 100" stroke="#38BDF8" stroke-width="2" fill="none" opacity="0.8"/>
+    <path d="M175 120 Q 210 160 245 120" stroke="#38BDF8" stroke-width="2" fill="none" opacity="0.5"/>
+    <path d="M160 145 Q 210 195 260 145" stroke="#38BDF8" stroke-width="2" fill="none" opacity="0.3"/>
+
+    <!-- Tank Info Card -->
+    <rect x="40" y="540" width="340" height="70" rx="12" fill="rgba(15, 43, 72, 0.7)" stroke="rgba(56, 189, 248, 0.3)" stroke-width="1"/>
+    <text x="60" y="568" fill="#F8FAFC" font-family="system-ui, sans-serif" font-size="16" font-weight="700">Tanque Principal #01 • Diesel B5-S50</text>
+    <text x="60" y="594" fill="#94A3B8" font-family="system-ui, sans-serif" font-size="14">Capacidad: 10,000 GL • Volumen: 8,450 GL</text>
+  </g>
+
+  <!-- Tank 2: Telemetry Data & Risk Alert Panel -->
+  <g transform="translate(560, 150)">
+    <!-- Panel Background -->
+    <rect x="40" y="40" width="500" height="570" rx="20" fill="rgba(10, 25, 47, 0.85)" stroke="rgba(56, 189, 248, 0.3)" stroke-width="2"/>
+
+    <!-- Section Title -->
+    <text x="80" y="90" fill="#38BDF8" font-family="system-ui, sans-serif" font-size="14" font-weight="700" letter-spacing="1">ESTADO DE TELEMETRÍA Y ALERTAS</text>
+    <text x="80" y="125" fill="#FFFFFF" font-family="system-ui, sans-serif" font-size="24" font-weight="800">Control de Nivel y Prevención</text>
+
+    <!-- Stat 1: Nivel de Combustible -->
+    <rect x="80" y="160" width="420" height="85" rx="12" fill="rgba(2, 12, 27, 0.7)" stroke="rgba(56, 189, 248, 0.2)" stroke-width="1"/>
+    <text x="105" y="195" fill="#94A3B8" font-family="system-ui, sans-serif" font-size="14">Sensor Ultrasónico de Precisión</text>
+    <text x="105" y="228" fill="#10B981" font-family="system-ui, sans-serif" font-size="22" font-weight="700">Margen de Error: &lt; 0.5 cm</text>
+    <circle cx="460" cy="202" r="16" fill="rgba(16, 185, 129, 0.2)"/>
+    <text x="460" y="208" fill="#10B981" font-family="system-ui, sans-serif" font-size="16" font-weight="900" text-anchor="middle">✓</text>
+
+    <!-- Stat 2: Tiempo de Reposición -->
+    <rect x="80" y="265" width="420" height="85" rx="12" fill="rgba(2, 12, 27, 0.7)" stroke="rgba(56, 189, 248, 0.2)" stroke-width="1"/>
+    <text x="105" y="300" fill="#94A3B8" font-family="system-ui, sans-serif" font-size="14">Umbral Automático de Reorden</text>
+    <text x="105" y="333" fill="#38BDF8" font-family="system-ui, sans-serif" font-size="22" font-weight="700">Disparo Autónomo: 20%</text>
+    <text x="460" y="313" fill="#38BDF8" font-family="system-ui, sans-serif" font-size="16" font-weight="700" text-anchor="middle">IoT</text>
+
+    <!-- Stat 3: Cisterna Asignada -->
+    <rect x="80" y="370" width="420" height="85" rx="12" fill="rgba(2, 12, 27, 0.7)" stroke="rgba(56, 189, 248, 0.2)" stroke-width="1"/>
+    <text x="105" y="405" fill="#94A3B8" font-family="system-ui, sans-serif" font-size="14">Validación Cisterna vs. Capacidad</text>
+    <text x="105" y="438" fill="#F59E0B" font-family="system-ui, sans-serif" font-size="22" font-weight="700">Compatibilidad: 100% Validada</text>
+    <text x="460" y="418" fill="#F59E0B" font-family="system-ui, sans-serif" font-size="16" font-weight="700" text-anchor="middle">GPS</text>
+
+    <!-- Compliance Banner -->
+    <rect x="80" y="480" width="420" height="95" rx="12" fill="rgba(2, 132, 199, 0.15)" stroke="#0284C7" stroke-width="1.5"/>
+    <text x="105" y="515" fill="#F8FAFC" font-family="system-ui, sans-serif" font-size="16" font-weight="700">Normativa de Hidrocarburos OSINERGMIN</text>
+    <text x="105" y="545" fill="#94A3B8" font-family="system-ui, sans-serif" font-size="14">Auditoría continua de fugas, sobrellenado y trazabilidad fiscal.</text>
+  </g>
+</svg>

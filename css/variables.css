@@ -1,0 +1,34 @@
+:root {
+    --color-primary: #0A192F;
+    --color-primary-dark: #050E1D;
+    --color-primary-soft: #1E3A5F;
+    --color-accent: #0284C7;
+    --color-accent-light: #38BDF8;
+    --color-fuel-amber: #F59E0B;
+    --color-fuel-emerald: #10B981;
+
+    --color-white: #FFFFFF;
+    --color-white-soft: rgba(255, 255, 255, 0.82);
+    --color-ink: #0F172A;
+
+    --font-family-primary: 'Caros', 'Segoe UI', system-ui, -apple-system, sans-serif;
+
+    --font-size-xs: 0.75rem;
+    --font-size-sm: 0.875rem;
+    --font-size-md: 1rem;
+    --font-size-lg: 1.15rem;
+    --font-size-xl: 1.5rem;
+
+    --layout-max-width: 90rem;
+    --space-layout-x: clamp(1.25rem, 5vw, 4.5rem);
+
+    --transition-fast: 180ms ease;
+    --transition-normal: 260ms ease;
+
+    --z-index-header: 100;
+
+    --glass-bg: rgba(255, 255, 255, 0.08);
+    --glass-border: rgba(255, 255, 255, 0.15);
+    --glass-blur: blur(16px);
+    --glass-shadow: 0 4px 30px rgba(0, 0, 0, 0.2);
+}

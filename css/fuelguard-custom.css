@@ -1,0 +1,351 @@
+/* ==========================================================================
+   FuelGuard Custom Styling — Testimonials & Contact Form
+   ========================================================================== */
+
+/* Navbar Brand Logo */
+.landing-header__logo {
+    height: 42px;
+    width: auto;
+    object-fit: contain;
+}
+
+/* Testimonials Section (US-37) */
+.testimonials-section {
+    position: relative;
+    padding: clamp(4rem, 8vw, 7rem) var(--space-layout-x);
+    background: radial-gradient(circle at 50% 20%, rgba(2, 132, 199, 0.12), transparent 70%);
+}
+
+.testimonials-section__container {
+    max-width: var(--layout-max-width);
+    margin: 0 auto;
+}
+
+.testimonials-section__header {
+    text-align: center;
+    max-width: 52rem;
+    margin: 0 auto clamp(2.5rem, 5vw, 4.5rem);
+}
+
+.testimonials-section__tag {
+    display: inline-block;
+    font-size: var(--font-size-xs);
+    font-weight: 700;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    color: #38bdf8;
+    margin-bottom: 0.75rem;
+}
+
+.testimonials-section__title {
+    font-size: clamp(2rem, 3.5vw, 3rem);
+    font-weight: 800;
+    line-height: 1.15;
+    color: var(--color-white);
+    margin-bottom: 1rem;
+    letter-spacing: -0.02em;
+}
+
+.testimonials-section__description {
+    font-size: clamp(0.95rem, 1.2vw, 1.125rem);
+    line-height: 1.6;
+    color: var(--color-white-soft);
+}
+
+.testimonials-section__grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 1.75rem;
+}
+
+.testimonial-card {
+    border-radius: 1.25rem;
+    padding: 2.25rem 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: transform var(--transition-normal), border-color var(--transition-normal);
+}
+
+.testimonial-card:hover {
+    transform: translateY(-4px);
+    border-color: rgba(56, 189, 248, 0.35);
+}
+
+.testimonial-card__quote-icon {
+    width: 28px;
+    height: 28px;
+    opacity: 0.4;
+    margin-bottom: 1.25rem;
+}
+
+.testimonial-card__quote {
+    font-size: 1rem;
+    line-height: 1.65;
+    color: rgba(255, 255, 255, 0.9);
+    margin-bottom: 1.75rem;
+    font-style: italic;
+}
+
+.testimonial-card__author-info {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    border-top: 1px solid rgba(255, 255, 255, 0.08);
+    padding-top: 1.25rem;
+}
+
+.testimonial-card__avatar {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid #38bdf8;
+    background: #0f172a;
+}
+
+.testimonial-card__details {
+    display: flex;
+    flex-direction: column;
+}
+
+.testimonial-card__name {
+    font-size: 1.05rem;
+    font-weight: 700;
+    color: var(--color-white);
+}
+
+.testimonial-card__role {
+    font-size: 0.85rem;
+    color: #38bdf8;
+    font-weight: 500;
+}
+
+.testimonial-card__company {
+    font-size: 0.8rem;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+/* Contact Form Section (US-04) */
+.contact-section {
+    position: relative;
+    padding: clamp(4rem, 8vw, 7rem) var(--space-layout-x);
+    background: radial-gradient(circle at 50% 80%, rgba(14, 116, 144, 0.15), transparent 70%);
+}
+
+.contact-section__container {
+    max-width: var(--layout-max-width);
+    margin: 0 auto;
+}
+
+.contact-section__grid {
+    display: grid;
+    grid-template-columns: 1fr 1.2fr;
+    gap: clamp(2.5rem, 5vw, 5rem);
+    align-items: start;
+}
+
+@media (max-width: 960px) {
+    .contact-section__grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+.contact-info__tag {
+    font-size: var(--font-size-xs);
+    font-weight: 700;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    color: #38bdf8;
+    display: inline-block;
+    margin-bottom: 0.75rem;
+}
+
+.contact-info__title {
+    font-size: clamp(2rem, 3.5vw, 3rem);
+    font-weight: 800;
+    line-height: 1.15;
+    color: var(--color-white);
+    margin-bottom: 1.25rem;
+    letter-spacing: -0.02em;
+}
+
+.contact-info__subtitle {
+    font-size: 1.05rem;
+    line-height: 1.6;
+    color: var(--color-white-soft);
+    margin-bottom: 2.5rem;
+}
+
+.contact-channels {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.contact-channel-card {
+    padding: 1.25rem 1.5rem;
+    border-radius: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 1.25rem;
+}
+
+.contact-channel-card__icon-wrap {
+    width: 44px;
+    height: 44px;
+    border-radius: 0.75rem;
+    background: rgba(56, 189, 248, 0.12);
+    border: 1px solid rgba(56, 189, 248, 0.25);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+}
+
+.contact-channel-card__icon-wrap img {
+    width: 22px;
+    height: 22px;
+}
+
+.contact-channel-card__label {
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: rgba(255, 255, 255, 0.6);
+    margin-bottom: 0.2rem;
+}
+
+.contact-channel-card__value {
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--color-white);
+}
+
+.contact-form-card {
+    border-radius: 1.5rem;
+    padding: clamp(2rem, 4vw, 3rem);
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+}
+
+.contact-form__row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.25rem;
+}
+
+@media (max-width: 640px) {
+    .contact-form__row {
+        grid-template-columns: 1fr;
+    }
+}
+
+.contact-form__field {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.contact-form__label {
+    font-size: 0.875rem;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 0.9);
+}
+
+.contact-form__input,
+.contact-form__select,
+.contact-form__textarea {
+    width: 100%;
+    padding: 0.875rem 1.125rem;
+    border-radius: 0.75rem;
+    background: rgba(15, 23, 42, 0.6);
+    border: 1px solid rgba(255, 255, 255, 0.14);
+    color: var(--color-white);
+    font-family: inherit;
+    font-size: 0.95rem;
+    outline: none;
+    transition: border-color var(--transition-fast), box-shadow var(--transition-fast);
+}
+
+.contact-form__input:focus,
+.contact-form__select:focus,
+.contact-form__textarea:focus {
+    border-color: #38bdf8;
+    box-shadow: 0 0 0 3px rgba(56, 189, 248, 0.2);
+}
+
+.contact-form__input::placeholder,
+.contact-form__textarea::placeholder {
+    color: rgba(255, 255, 255, 0.35);
+}
+
+.contact-form__textarea {
+    resize: vertical;
+    min-height: 110px;
+}
+
+.contact-form__submit {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.75rem;
+    width: 100%;
+    padding: 1.1rem 1.5rem;
+    font-size: 1rem;
+    font-weight: 700;
+    border-radius: 0.875rem;
+    border: none;
+    cursor: pointer;
+    background: linear-gradient(135deg, #0284c7, #0ea5e9);
+    color: #ffffff;
+    box-shadow: 0 8px 24px rgba(2, 132, 199, 0.35);
+    transition: transform var(--transition-fast), box-shadow var(--transition-fast), opacity var(--transition-fast);
+}
+
+.contact-form__submit:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 12px 30px rgba(2, 132, 199, 0.5);
+}
+
+.contact-form__submit:active {
+    transform: translateY(0);
+}
+
+.contact-form__feedback {
+    display: none;
+    padding: 1rem 1.25rem;
+    border-radius: 0.75rem;
+    font-size: 0.925rem;
+    line-height: 1.5;
+}
+
+.contact-form__feedback--success {
+    display: block;
+    background: rgba(16, 185, 129, 0.15);
+    border: 1px solid rgba(16, 185, 129, 0.4);
+    color: #6ee7b7;
+}
+
+.contact-form__feedback--error {
+    display: block;
+    background: rgba(239, 68, 68, 0.15);
+    border: 1px solid rgba(239, 68, 68, 0.4);
+    color: #fca5a5;
+}
+
+/* Desktop right-side drawer toggle button */
+.landing-header__drawer-toggle-wrap {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.landing-header__actions .landing-header__hamburger {
+    display: flex;
+}
+

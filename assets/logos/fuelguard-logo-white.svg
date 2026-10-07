@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 72" fill="none">
+  <defs>
+    <linearGradient id="fgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0284C7" />
+      <stop offset="50%" stop-color="#0EA5E9" />
+      <stop offset="100%" stop-color="#F59E0B" />
+    </linearGradient>
+    <linearGradient id="fgShield" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0EA5E9" stop-opacity="0.9" />
+      <stop offset="100%" stop-color="#0369A1" stop-opacity="0.9" />
+    </linearGradient>
+  </defs>
+  <!-- Shield & Fuel Wave Icon -->
+  <g transform="translate(6, 6)">
+    <path d="M30 2 L56 12 C56 36 30 54 30 58 C30 54 4 36 4 12 Z" fill="url(#fgShield)" stroke="#38BDF8" stroke-width="2.5" />
+    <!-- Fuel Drop / Tank Sensor -->
+    <path d="M30 16 C30 16 20 28 20 35 C20 41 24.5 45.5 30 45.5 C35.5 45.5 40 41 40 35 C40 28 30 16 30 16 Z" fill="#F59E0B" />
+    <!-- Telemetry waves -->
+    <path d="M25 33 Q30 30 35 33" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" fill="none" />
+    <path d="M26 38 Q30 35 34 38" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" fill="none" />
+  </g>
+  <!-- Text Brand -->
+  <text x="76" y="44" font-family="'Caros', 'Inter', 'Segoe UI', sans-serif" font-size="34" font-weight="900" fill="#FFFFFF" letter-spacing="-0.5">
+    Fuel<tspan fill="#38BDF8">Guard</tspan>
+  </text>
+  <text x="78" y="58" font-family="'Caros', 'Inter', 'Segoe UI', sans-serif" font-size="10" font-weight="700" fill="#94A3B8" letter-spacing="2.8">
+    IOT TANK &amp; DISPATCH B2B
+  </text>
+</svg>

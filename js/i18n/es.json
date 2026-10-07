@@ -1,0 +1,596 @@
+{
+  "navbar": {
+    "home": "Inicio",
+    "features": "Funciones IoT",
+    "growers": "Distribuidores",
+    "specialists": "Estaciones de Servicio",
+    "pricing": "Planes",
+    "testimonials": "Testimonios",
+    "aboutUs": "Nosotros",
+    "contact": "Contacto",
+    "getStarted": "Comenzar"
+  },
+  "hero": {
+    "title": "Monitoreo Inteligente de Tanques,\nLogística Confiable\ny Cero Desabastecimiento.",
+    "subtitle": "FuelGuard conecta telemetría IoT en los tanques de almacenamiento de tus clientes con la generación automática de pedidos, asignación validada de cisternas y trazabilidad total para distribuidores de combustible.",
+    "cta": "¡Solicita una Demostración!",
+    "seePlans": "Ver Planes",
+    "siteCredit": "SITIO POR EQUIPO FUELGUARD • UPC",
+    "language": "EN | ES",
+    "sound": "SONIDO"
+  },
+  "aria": {
+    "mainNavigation": "Navegación principal de FuelGuard",
+    "landingSections": "Secciones de la plataforma FuelGuard",
+    "goHome": "Ir al inicio de FuelGuard",
+    "getStarted": "Comenzar con FuelGuard",
+    "heroActions": "Acciones principales del inicio",
+    "languageToggle": "Cambiar idioma entre español e inglés",
+    "soundToggle": "Activar o desactivar sonido ambiental",
+    "mobileNav": "Menú de navegación móvil",
+    "closeMenu": "Cerrar menú",
+    "problemCards": "Tarjetas de la problemática logística",
+    "problemSolution": "Sección de problema y solución",
+    "solutionCarousel": "Carrusel de capacidades de la plataforma FuelGuard",
+    "prevSolution": "Tarjeta de solución anterior",
+    "nextSolution": "Tarjeta de solución siguiente",
+    "segments": "Flujos de usuario para Distribuidores y Compradores",
+    "pricingSection": "Sección de planes de precios",
+    "prevPlan": "Plan de precios anterior",
+    "nextPlan": "Plan de precios siguiente",
+    "producerTicket": "Ticket del plan base para distribuidores",
+    "specialistTicket": "Ticket del plan corporativo con telemetría IoT",
+    "startTrial": "Iniciar registro en FuelGuard",
+    "aboutSection": "Acerca de FuelGuard y el equipo de ingeniería",
+    "testimonialsSection": "Testimonios de usuarios de FuelGuard",
+    "contactSection": "Formulario de contacto FuelGuard",
+    "youtube": "YouTube",
+    "facebook": "Facebook",
+    "twitter": "Twitter",
+    "instagram": "Instagram",
+    "linkedin": "LinkedIn",
+    "closeLegal": "Cerrar panel legal"
+  },
+  "aboutIntro": {
+    "eyebrow": "Diseñado para el sector logístico de hidrocarburos",
+    "title": "Transforma los niveles físicos de tanque en órdenes de despacho automáticas. Monitorea el volumen en tiempo real, anticipa pedidos críticos con 48 horas de holgura y asegura cada entrega con geocercas satelitales.",
+    "marquee": {
+      "satellite": "Telemetría IoT 24/7",
+      "farming": "Logística de Combustible",
+      "grow": "Cero Desabastecimiento"
+    }
+  },
+  "problemCards": {
+    "sectionLabel": "Problemática del Sector",
+    "tag": "EL DESAFÍO OPERATIVO",
+    "title": "La distribución manual de combustible deja demasiado al azar",
+    "description": "Las mediciones manuales con vara, los pedidos reactivos por WhatsApp y la asignación empírica de flotas cisterna generan pérdidas millonarias por quiebre de stock, sobrecostos de transporte y nula trazabilidad operativa.",
+    "cta": "Descubre Cómo FuelGuard lo Resuelve",
+    "ctaAria": "Ir a la solución tecnológica de FuelGuard",
+    "cardsTitle": "Los Puntos Críticos Actuales",
+    "cards": {
+      "yields": {
+        "title": "Medición Manual y Quiebre de Stock",
+        "number": "01",
+        "description": "Las estaciones siguen midiendo tanques con varilla o Excel. Este método propicia errores humanos, mermas por evaporación y demoras de hasta 3 horas por pedido, provocando desabastecimientos críticos en fechas de alta demanda."
+      },
+      "pests": {
+        "title": "Pedidos de Urgencia Informales",
+        "number": "02",
+        "description": "Entre el 35% y 45% de las órdenes ingresan de emergencia mediante llamadas y chats de último minuto. Esto quiebra las rutas programadas del distribuidor, obliga a despachar cisternas a media carga y dispara los costos de flete."
+      },
+      "climate": {
+        "title": "Asignación de Flota sin Validación",
+        "number": "03",
+        "description": "Asignar conductores y cisternas manualmente sin comprobar capacidad frente al volumen pedido causa retrasos graves, errores de sobrecapacidad y viajes ineficientes que vulneran normativas de transporte y seguridad."
+      }
+    }
+  },
+  "problemSolution": {
+    "problemPanel": {
+      "introText": "El abastecimiento de hidrocarburos no puede depender de llamadas apresuradas ni varillas empíricas. Con FuelGuard, cada tanque asociado notifica su nivel en tiempo real, anticipando la demanda y asegurando la entrega antes de que el negocio se detenga.",
+      "expandedText": "FuelGuard integra sensores IoT en tanques estacionarios con la operación de despacho de flotas cisterna en una plataforma B2B punta a punta."
+    }
+  },
+  "solutionPanel": {
+    "eyebrow": "LA SOLUCIÓN FUELGUARD",
+    "title": "Convierte datos de telemetría en despachos automatizados",
+    "subtitle": "Anticipa la demanda. Despacha con precisión milimétrica.",
+    "cards": {
+      "alerts": {
+        "title": "Monitoreo IoT en Tanque",
+        "description": "Sensores hidrostáticos y ultrasónicos leen el nivel 24/7 en tanques subterráneos o aéreos, detectando el umbral crítico sin intervención manual."
+      },
+      "marketplace": {
+        "title": "Generación Automática de Pedidos",
+        "description": "Al alcanzar el umbral de seguridad, el sistema genera la orden con producto, volumen requerido, espacio libre (ullage) y fecha de descarga."
+      },
+      "ndvi": {
+        "title": "Aceptación y Despacho B2B",
+        "description": "Panel centralizado donde el distribuidor acepta o rechaza pedidos con un clic, revisa depósitos bancarios y coordina la atención en minutos."
+      },
+      "chill": {
+        "title": "Asignación Inteligente de Flota",
+        "description": "El algoritmo recomienda el conductor habilitado y la cisterna cuya capacidad cubra exactamente el volumen pedido, erradicando errores de asignación."
+      },
+      "nutrition": {
+        "title": "Geocercas y Bloqueo de Válvulas",
+        "description": "Monitoreo en tránsito y control electrónico de apertura de válvulas: la descarga solo se habilita en las coordenadas autorizadas del cliente."
+      },
+      "climate": {
+        "title": "Expediente Digital y Trazabilidad",
+        "description": "Acta de entrega digital con lecturas inicial y final, tiempo de descarga y firmas, garantizando cumplimiento normativo con OSINERGMIN."
+      }
+    }
+  },
+  "expectedOutcomes": {
+    "eyebrow": "Impacto y Resultados Operativos",
+    "title": "OPTIMIZA TU OPERACIÓN LOGÍSTICA Y ERRADICA EL DESABASTECIMIENTO CRÍTICO.",
+    "metrics": {
+      "delivery": {
+        "value": "-40%",
+        "label": "Tiempo de Gestión y Asignación de Despacho"
+      },
+      "growers": {
+        "value": "0%",
+        "label": "Errores de Capacidad en Asignación de Cisternas"
+      },
+      "specialists": {
+        "value": "80%+",
+        "label": "Pedidos Generados Automáticamente por IoT"
+      },
+      "reduction": {
+        "value": "100%",
+        "label": "Trazabilidad con Geocercas y Expediente Digital"
+      }
+    },
+    "recommendation": {
+      "eyebrow": "Recomendación Operativa FuelGuard",
+      "title": "NUNCA DETENGAS UNA ESTACIÓN POR FALTA DE COMBUSTIBLE",
+      "description": "Con FuelGuard, tu distribuidor conoce con 48 a 72 horas de anticipación el momento exacto en que tu tanque requerirá reposición. Olvídate de varillas manuales y despachos de emergencia: opera con la tranquilidad de un suministro garantizado.",
+      "cta": "Explorar Plataforma FuelGuard",
+      "ctaAria": "Explorar la plataforma FuelGuard"
+    }
+  },
+  "featureProduct": {
+    "brand": "FuelGuard",
+    "tagline": "El Guardián Inteligente de tu Combustible.\nOperación Continua 24/7.",
+    "eyebrow": "TELEMETRÍA LOGÍSTICA INTEGRADA",
+    "title": "Tu tanque alerta.\nTu flota responde.",
+    "playAria": "Reproducir video de presentación de FuelGuard",
+    "moreAria": "Mostrar arquitectura y detalles de la solución",
+    "youtubeAria": "Ver video en YouTube",
+    "cta": "Solicitar Demostración",
+    "moreText": "FuelGuard sincroniza la lectura continua de sensores IoT instalados en tanques de compradores con el portal de despacho del distribuidor. Permite validar depósitos bancarios, asignar cisternas según capacidad exacta de compartimentos, supervisar rutas con geocercas activas y bloquear válvulas hasta llegar al destino autorizado."
+  },
+  "roleBenefits": {
+    "sectionLabel": "Flujos de Trabajo por Segmento",
+    "growersTitle": "Distribuidores Logísticos",
+    "specialistsTitle": "Estaciones y Compradores",
+    "title": "Una solución integral para ambas caras de la cadena de suministro",
+    "description": "Ya seas un distribuidor que opera una flota cisterna o un administrador de estación que necesita garantizar stock continuo, FuelGuard adapta su flujo operativo a tus necesidades.",
+    "navAria": "Navegar entre perfiles de usuario",
+    "growersLinkAria": "Ver beneficios para Distribuidores Logísticos",
+    "specialistsLinkAria": "Ver beneficios para Estaciones de Servicio",
+    "story": {
+      "growers": {
+        "eyebrow": "Distribuidores de Combustible",
+        "steps": [
+          {
+            "title": "Registra flota y conductores habilitados",
+            "description": "Configura tus cisternas con capacidad total, compartimentos y tipo de combustible, junto con la documentación y licencias de cada chofer.",
+            "bullets": [
+              "Gestión centralizada de unidades cisterna y compatibilidad de productos.",
+              "Validación de conductores con licencias especiales y vigencia.",
+              "Control de disponibilidad en tiempo real para evitar sobrecargas."
+            ],
+            "cta": "Configurar Flota Cisterna"
+          },
+          {
+            "title": "Recibe solicitudes generadas por IoT",
+            "description": "Despídete de llamadas y chats desordenados. Las órdenes llegan estructuradas con volumen, producto, ubicación y fecha requerida.",
+            "bullets": [
+              "Detección automática por sensor cuando el tanque del cliente baja del umbral.",
+              "Recepción centralizada de pedidos con indicador de urgencia.",
+              "Validación de comprobantes y depósitos bancarios en un solo lugar."
+            ],
+            "cta": "Ver Gestión de Solicitudes"
+          },
+          {
+            "title": "Asigna recursos con validación de capacidad",
+            "description": "El motor de FuelGuard empareja el pedido con la cisterna adecuada, garantizando capacidad suficiente y ruta libre.",
+            "bullets": [
+              "Cero asignaciones de cisternas con capacidad inferior a lo solicitado.",
+              "Asignación automática basada en disponibilidad, ruta y prioridad.",
+              "Notificación inmediata al comprador con los datos de la unidad asignada."
+            ],
+            "cta": "Explorar Asignación de Flota"
+          },
+          {
+            "title": "Supervisa en ruta y concilia la entrega",
+            "description": "Monitorea la unidad con geocerca activa, autoriza la descarga y genera el expediente digital auditado.",
+            "bullets": [
+              "Bloqueo electrónico de válvula si la cisterna está fuera de la geocerca.",
+              "Registro de telemetría de volumen antes y después de la descarga.",
+              "Generación del acta digital de recepción para OSINERGMIN y contabilidad."
+            ],
+            "cta": "Comenzar como Distribuidor"
+          }
+        ]
+      },
+      "specialists": {
+        "eyebrow": "Estaciones de Servicio y Clientes Corporativos",
+        "steps": [
+          {
+            "title": "Instala el sensor IoT en tu tanque",
+            "description": "Asocia tus tanques estacionarios a la plataforma FuelGuard con dispositivos ultrasónicos o hidrostáticos de lectura continua.",
+            "bullets": [
+              "Compatible con tanques subterráneos y aéreos de diésel o gasolina.",
+              "Lectura precisa de nivel, galonaje actual y espacio disponible (ullage).",
+              "Sin necesidad de cables complejos ni inversión en consolas privativas."
+            ],
+            "cta": "Vincular Tanques IoT"
+          },
+          {
+            "title": "Configura tus umbrales de reabastecimiento",
+            "description": "Establece el nivel mínimo porcentual o de galones que activará la orden preventiva antes de que entres en zona de riesgo.",
+            "bullets": [
+              "Alertas tempranas con 48 a 72 horas de anticipación.",
+              "Configuración de pedidos automáticos o con confirmación de 1 clic.",
+              "Prevención de rotura de stock en fines de semana o feriados largos."
+            ],
+            "cta": "Configurar Umbrales"
+          },
+          {
+            "title": "Sigue el despacho de tu pedido en tiempo real",
+            "description": "Consulta desde tu panel cuándo tu distribuidor aprueba la orden, asigna la cisterna y la despacha hacia tu estación.",
+            "bullets": [
+              "Visualización clara del estado: Pendiente, Aprobado, Despachado, Entregado.",
+              "Identificación del chofer y placa de la cisterna en ruta.",
+              "Hora estimada de llegada (ETA) y ventana autorizada de descarga."
+            ],
+            "cta": "Ver Seguimiento en Vivo"
+          },
+          {
+            "title": "Confirma la recepción y audita tu inventario",
+            "description": "Valida la descarga con firma digital y recibe el acta con balance de galones para mantener inventarios exactos.",
+            "bullets": [
+              "Confirmación con un clic para cerrar el despacho con tu distribuidor.",
+              "Historial completo de despachos, depósitos y variaciones de inventario.",
+              "Reportes descargables en PDF para auditoría interna y fiscalización."
+            ],
+            "cta": "Registrar Estación de Servicio"
+          }
+        ]
+      }
+    },
+    "visuals": {
+      "plot": {
+        "title": "Tanque Estacionario #01",
+        "note": "Sensor IoT activo con calibración hidrostática.",
+        "metric": "Capacidad: 10,000 gal"
+      },
+      "dashboard": {
+        "title": "Nivel de Combustible",
+        "note": "Lectura en tiempo real: Diésel B5 S-50.",
+        "metric": "Nivel: 18% (Alerta)"
+      },
+      "alerts": {
+        "title": "Solicitud Automática",
+        "note": "Umbral crítico alcanzado: orden generada.",
+        "metric": "Pedido #FG-2026-89"
+      },
+      "support": {
+        "title": "Cisterna y Chofer",
+        "note": "Cisterna T-841 (Cap. 8,000 gal) con Chofer habilitado.",
+        "metric": "Asignado 100%"
+      },
+      "profile": {
+        "title": "Geocerca de Descarga",
+        "note": "Coordenadas verificadas en estación de servicio.",
+        "metric": "Dentro de Geocerca"
+      },
+      "opportunities": {
+        "title": "Válvula de Seguridad",
+        "note": "Autorización electrónica de apertura emitida.",
+        "metric": "Descarga Segura"
+      },
+      "case": {
+        "title": "Acta de Recepción",
+        "note": "Conciliación de galones descargados y firma digital.",
+        "metric": "Entrega Cerrada"
+      },
+      "prescription": {
+        "title": "Historial Auditado",
+        "note": "Expediente digital listo para archivo contable y fiscal.",
+        "metric": "OSINERGMIN OK"
+      }
+    }
+  },
+  "pricingIntro": {
+    "sectionLabel": "Planes y Precios",
+    "firstTitle": "PLANES ESCALABLES PARA EL SECTOR HIDROCARBUROS",
+    "firstSubtitle": "Digitaliza tu logística de abastecimiento sin atarte a hardware costoso ni licencias propietarias complejas.",
+    "secondTitle": "MAYOR EFICIENCIA, MENOR MERMA Y CERO DESABASTECIMIENTO",
+    "secondSubtitle": "Desde distribuidores independientes hasta flotas corporativas con múltiples estaciones asociadas."
+  },
+  "pricingPlans": {
+    "billing": {
+      "monthly": "Mensual",
+      "yearly": "Anual (2 meses gratis)"
+    },
+    "producer": {
+      "title": "Para Distribuidores y Flotas",
+      "planName": "Plan Base Digital",
+      "detail1": "Gestión integral de pedidos B2B y catálogo de combustibles",
+      "detail2": "Registro y control de flota de cisternas y choferes habilitados",
+      "detail3": "Validación y conciliación de depósitos bancarios",
+      "detail4": "Generación de órdenes de despacho y actas de recepción digital",
+      "detail5": "Portal web multiusuario para distribuidores y compradores asociados",
+      "priceMonthly": "s/.199.00",
+      "priceYearly": "s/.1,990.00",
+      "cta": "Comenzar Plan Base"
+    },
+    "specialist": {
+      "title": "Distribución Integral con IoT",
+      "planName": "Plan IoT Corporativo",
+      "detail1": "Todo lo incluido en el Plan Base Digital",
+      "detail2": "Telemetría IoT 24/7 en tanques subterráneos y aéreos",
+      "detail3": "Generación automática de solicitudes por umbral crítico",
+      "detail4": "Asignación inteligente de flota con validación estricta de capacidad",
+      "detail5": "Geocercas satelitales, bloqueo de válvulas y trazabilidad OSINERGMIN",
+      "priceMonthly": "s/.599.00",
+      "priceYearly": "s/.5,990.00",
+      "cta": "Comenzar Plan IoT"
+    }
+  },
+  "referralsInfo": {
+    "tag": "Red de Aliados",
+    "title": "Conecta tu red de compradores e impulsa una logística moderna.",
+    "description": "Comparte FuelGuard con tus clientes corporativos, grifos asociados, empresas de transporte y contratistas de minería o agro. Al asociar nuevos tanques con telemetría IoT, optimizas tus rutas de reparto y desbloqueas beneficios exclusivos en tu suscripción.",
+    "cta": "Obtener Enlace de Aliado",
+    "ctaAria": "Obtener mi enlace de aliado logístico",
+    "cards": {
+      "share": {
+        "title": "Asocia Nuevas Estaciones",
+        "description": "Invita a estaciones de servicio y clientes industriales a conectar sus tanques a tu panel de despacho."
+      },
+      "track": {
+        "title": "Rastrea Tanques Activos",
+        "description": "Supervisa en tiempo real qué clientes ya cuentan con dispositivos IoT instalados y transmitiendo."
+      },
+      "rewards": {
+        "title": "Desbloquea Descuentos",
+        "description": "Obtén tarifas preferenciales por volumen de tanques asociados y galonaje gestionado en la plataforma."
+      },
+      "grow": {
+        "title": "Consolida tu Liderazgo",
+        "description": "Brinda un servicio premium de abastecimiento preventivo que fideliza a tus clientes corporativos."
+      }
+    }
+  },
+  "aboutMission": {
+    "sectionLabel": "Sobre Nosotros",
+    "tag": "STARTUP PROFILE",
+    "title": "Nuestra Misión",
+    "subtitle": "Innovación IoT para la logística y distribución de hidrocarburos.",
+    "builtBy": "Desarrollado por el Equipo FuelGuard",
+    "focusedOn": "Especializados en Cadena de Suministro B2B",
+    "statement": "Digitalizamos la logística de distribución de combustible para eliminar los desabastecimientos y los errores de despacho.",
+    "description": "FuelGuard es una solución B2B diseñada para empresas transportistas y distribuidoras de hidrocarburos con flotas de unidades cisterna. Conectamos sensores IoT en tanques de compradores corporativos con una plataforma integral que automatiza solicitudes, valida capacidades de transporte, controla descargas por geocerca y garantiza trazabilidad total conforme a regulaciones de OSINERGMIN.",
+    "cta": "Conocer al Equipo",
+    "ctaAria": "Conocer al equipo de desarrollo de FuelGuard"
+  },
+  "learningFromBest": {
+    "title": "Fundamentos de Arquitectura y Estándares"
+  },
+  "segmentSummary": {
+    "title": "Cada operación logística merece herramientas precisas.",
+    "aria": "Tarjetas de resumen por componente de solución",
+    "button": "Descubrir",
+    "cards": [
+      {
+        "audience": "Para Distribuidores de Flota",
+        "title": "TELEMETRÍA IOT",
+        "price": "s/.199",
+        "priceUnit": "/ mes",
+        "description": "Monitoreo continuo de tanques asociados con telemetría en tiempo real y alertas de umbral crítico.",
+        "bullets": [
+          "Lectura continua de nivel y ullage",
+          "Detección inmediata de caídas anómalas",
+          "Sincronización tolerante a fallas de red",
+          "Historial completo de lecturas"
+        ],
+        "color": "#1E3A5F"
+      },
+      {
+        "audience": "Para Distribuidores de Flota",
+        "title": "DISPATCH PRO",
+        "price": "s/.199",
+        "priceUnit": "/ mes",
+        "description": "Planificación y recomendación automática de cisterna y conductor según capacidad exacta requerida.",
+        "bullets": [
+          "Validación estricta de capacidad vs volumen",
+          "Filtro de conductores habilitados",
+          "Eliminación de asignaciones erróneas",
+          "Programación de ventanas de descarga"
+        ],
+        "color": "#D97706"
+      },
+      {
+        "audience": "Para Distribuidores de Flota",
+        "title": "GEOCERCA Y VÁLVULA",
+        "price": "s/.199",
+        "priceUnit": "/ mes",
+        "description": "Seguridad en tránsito y autorización electrónica de apertura de válvula exclusivamente en destino.",
+        "bullets": [
+          "Monitoreo GPS y geocercas satelitales",
+          "Bloqueo electrónico fuera de geocerca",
+          "Prevención de mermas y descargas indebidas",
+          "Cumplimiento normativo OSINERGMIN"
+        ],
+        "color": "#0F172A"
+      },
+      {
+        "audience": "Para Estaciones y Compradores",
+        "title": "AUTO-ORDER",
+        "price": "s/.599",
+        "priceUnit": "/ mes",
+        "description": "Generación automática de solicitudes de combustible al alcanzar el umbral de reposición.",
+        "bullets": [
+          "Sin llamadas ni transcripciones en WhatsApp",
+          "Cálculo automático de volumen necesario",
+          "Opción de confirmación con 1 clic",
+          "Notificación inmediata de aceptación"
+        ],
+        "color": "#F8FAFC"
+      },
+      {
+        "audience": "Para Estaciones y Compradores",
+        "title": "TRAZABILIDAD EN VIVO",
+        "price": "s/.599",
+        "priceUnit": "/ mes",
+        "description": "Visibilidad punta a punta del estado del despacho desde la salida de planta hasta la descarga.",
+        "bullets": [
+          "Estados: Aprobado, Asignado, En Ruta, Entregado",
+          "Identificación de unidad cisterna y conductor",
+          "Tiempo estimado de arribo a la estación",
+          "Validación de depósitos bancarios"
+        ],
+        "color": "#0284C7"
+      },
+      {
+        "audience": "Para Estaciones y Compradores",
+        "title": "EXPEDIENTE AUDITABLE",
+        "price": "s/.599",
+        "priceUnit": "/ mes",
+        "description": "Acta digital con evidencia telemática de entrega para conciliar balances y auditorías tributarias.",
+        "bullets": [
+          "Lecturas inicial y final certificadas",
+          "Firma digital de conformidad del receptor",
+          "Descarga de constancia en formato PDF",
+          "Respaldo para reportes mensuales"
+        ],
+        "color": "#1E3A5F"
+      }
+    ]
+  },
+  "testimonials": {
+    "sectionLabel": "Casos de Estudio y Validación",
+    "tag": "VOCES DEL MERCADO",
+    "title": "Lo que dicen los líderes del sector hidrocarburos",
+    "description": "Entrevistas en profundidad realizadas a administradores de estaciones y gerentes de logística corroboran el impacto de sustituir procesos manuales por la telemetría de FuelGuard.",
+    "cards": [
+      {
+        "quote": "Cada cisterna mal asignada no es solo un error operativo, es un cliente corporativo que podemos perder. Con FuelGuard dejamos de coordinar por WhatsApp y validamos la capacidad de cada unidad antes de salir a ruta.",
+        "author": "Marco Salazar",
+        "role": "Jefe de Operaciones y Despacho",
+        "company": "Distribuidora Logística de Combustible (Lima)"
+      },
+      {
+        "quote": "Entre el 25% y 30% de nuestros despachos semanales eran de urgencia por desabastecimientos no previstos. Con la detección por umbral IoT pasamos a un modelo proactivo que nos permite consolidar viajes de 10,000 galones.",
+        "author": "Patricia Valdivia",
+        "role": "Gerente de Logística y Operaciones",
+        "company": "Transportes & Distribución de Hidrocarburos"
+      },
+      {
+        "quote": "Quedarnos sin diésel en fechas festivas fue una pesadilla que nos costó clientes clave de flotas. Ahora el sensor mide constantemente y la solicitud se genera con un clic, eliminando el riesgo de la vara manual.",
+        "author": "Carlos Campoblanco",
+        "role": "Administrador de Estación de Servicio",
+        "company": "Estación de Servicios y Grifos del Sur"
+      },
+      {
+        "quote": "Medir tanques con varilla y llamar al proveedor nos quitaba casi 3 horas diarias. Con FuelGuard tenemos datos exactos sin temor a pedidos duplicados ni sorpresas en el nivel del tanque.",
+        "author": "Sebastián Rojas",
+        "role": "Administrador de Gasolinera",
+        "company": "Red de Estaciones Nor-Oriente"
+      },
+      {
+        "quote": "Tener alertas con 48 a 72 horas de anticipación transformó nuestra rentabilidad. Dejamos de armar fletes de emergencia y tenemos visibilidad clara de galones, cisternas y códigos de transacción.",
+        "author": "Carlos Miranda",
+        "role": "Gerente de Logística",
+        "company": "Distribuidor Mayorista de Combustibles"
+      }
+    ]
+  },
+  "contact": {
+    "sectionLabel": "Contacto y Demostración",
+    "title": "Habla con el equipo detrás de FuelGuard",
+    "subtitle": "¿Listo para modernizar tu logística de combustible? Déjanos tus datos y un especialista coordinará una demostración técnica de la plataforma.",
+    "getInTouch": {
+      "label": "Canales de Atención",
+      "talkToUs": "Atención Comercial y Técnica",
+      "writeUs": "contacto@fuelguard.pe"
+    },
+    "address": {
+      "label": "Sede Académica e Investigación",
+      "location": "Universidad Peruana de Ciencias Aplicadas (UPC)<br />Carrera de Ingeniería de Software — Lima, Perú",
+      "googleMaps": "Ver Ubicación",
+      "openForm": "Abrir Formulario de Contacto",
+      "sendMessage": "Enviar Solicitud"
+    },
+    "form": {
+      "nameLabel": "Nombre y Apellidos",
+      "namePlaceholder": "Ej. Marco Salazar",
+      "emailLabel": "Correo Corporativo",
+      "emailPlaceholder": "marco.salazar@empresa.com",
+      "phoneLabel": "Teléfono o Celular",
+      "phonePlaceholder": "+51 987 654 321",
+      "companyLabel": "Empresa o Razón Social",
+      "companyPlaceholder": "Ej. Logística de Hidrocarburos S.A.C.",
+      "segmentLabel": "Tipo de Empresa",
+      "segmentOptions": {
+        "distributor": "Distribuidor Logístico con Flota Cisterna",
+        "station": "Estación de Servicio / Grifo",
+        "industrial": "Consumidor Industrial / Minería / Construcción",
+        "other": "Otro agente del sector"
+      },
+      "messageLabel": "Mensaje o Requerimiento",
+      "messagePlaceholder": "Cuéntanos sobre tu operación: número de tanques o unidades cisterna...",
+      "submit": "Enviar Solicitud de Información",
+      "successTitle": "¡Mensaje Enviado con Éxito!",
+      "successMessage": "Gracias por tu interés en FuelGuard. Un representante técnico se comunicará contigo a la brevedad.",
+      "errorTitle": "Error en el formulario",
+      "errorMessage": "Por favor completa todos los campos requeridos con datos válidos."
+    }
+  },
+  "teamMembers": {
+    "title": "Equipo de Desarrollo — FuelGuard",
+    "cta": "Ver Perfiles",
+    "role": "Ingeniería de Software • UPC",
+    "toggleVideo": "Video del Producto",
+    "toggleImage": "Galería del Proyecto",
+    "videoPlayAria": "Reproducir video de presentación de FuelGuard",
+    "videoCloseAria": "Cerrar reproductor de video",
+    "videoYoutubeAria": "Ver video explicativo en YouTube",
+    "footerText": "Somos estudiantes de la carrera de Ingeniería de Software de la Universidad Peruana de Ciencias Aplicadas (UPC). Diseñamos FuelGuard aplicando estándares de arquitectura de software, metodologías Lean UX y C4 Model para resolver un problema crítico en la cadena de distribución de hidrocarburos."
+  },
+  "finalCta": {
+    "title": "El Futuro de la Distribución de Combustible Comienza Hoy",
+    "subtitle": "Conecta tus tanques con telemetría IoT y optimiza cada despacho de tu flota cisterna con total trazabilidad.",
+    "button": "Comenzar con FuelGuard",
+    "buttonAria": "Comenzar con FuelGuard hoy"
+  },
+  "footer": {
+    "bigLinks": {
+      "features": "FUNCIONES IOT",
+      "growers": "DISTRIBUIDORES",
+      "specialists": "ESTACIONES",
+      "pricing": "PLANES"
+    },
+    "credit": "FUELGUARD — FUNDAMENTOS DE ARQUITECTURA DE SOFTWARE 2026",
+    "links": {
+      "home": "Inicio",
+      "about": "Nosotros",
+      "contact": "Contacto",
+      "terms": "Términos de Servicio",
+      "privacy": "Política de Privacidad"
+    },
+    "newsletterText": "Suministro continuo y trazabilidad certificada. Únete a los distribuidores y estaciones que ya operan con FuelGuard.",
+    "emailLabel": "Correo corporativo",
+    "emailPlaceholder": "Correo corporativo",
+    "subscribe": "suscribirse",
+    "tryViora": "Probar FuelGuard",
+    "followUs": "SÍGUENOS:"
+  }
+}

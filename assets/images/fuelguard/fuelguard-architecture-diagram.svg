@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" width="100%" height="100%">
+  <defs>
+    <linearGradient id="archBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#020C1B"/>
+      <stop offset="50%" stop-color="#0A192F"/>
+      <stop offset="100%" stop-color="#071E36"/>
+    </linearGradient>
+    <linearGradient id="nodeGrad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0F2B48"/>
+      <stop offset="100%" stop-color="#0284C7"/>
+    </linearGradient>
+    <filter id="archGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="6" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="700" fill="url(#archBg)"/>
+
+  <!-- Header -->
+  <g transform="translate(80, 50)">
+    <text x="0" y="30" fill="#38BDF8" font-family="system-ui, sans-serif" font-size="14" font-weight="700" letter-spacing="1">ARQUITECTURA DE SOFTWARE &amp; SISTEMAS DISTRIBUIDOS</text>
+    <text x="0" y="65" fill="#FFFFFF" font-family="system-ui, sans-serif" font-size="28" font-weight="800">Ecosistema FuelGuard IoT • End-to-End</text>
+    <text x="0" y="95" fill="#94A3B8" font-family="system-ui, sans-serif" font-size="15">UPC Software Engineering • Arquitectura B2B en Tiempo Real</text>
+  </g>
+
+  <!-- Flow Arrows / Connections -->
+  <g stroke="#38BDF8" stroke-width="2" stroke-dasharray="6 4" fill="none">
+    <path d="M 280 340 L 400 340"/>
+    <path d="M 640 340 L 760 340"/>
+    <path d="M 1000 340 L 1080 340"/>
+    <path d="M 520 440 L 520 520"/>
+  </g>
+
+  <!-- Node 1: IoT Edge Layer -->
+  <g transform="translate(80, 220)">
+    <rect width="200" height="240" rx="16" fill="rgba(15, 43, 72, 0.7)" stroke="#0284C7" stroke-width="2"/>
+    <circle cx="100" cy="50" r="28" fill="rgba(2, 132, 199, 0.3)" stroke="#38BDF8" stroke-width="2"/>
+    <text x="100" y="58" fill="#FFFFFF" font-family="system-ui, sans-serif" font-size="24" text-anchor="middle">📡</text>
+    <text x="100" y="115" fill="#FFFFFF" font-family="system-ui, sans-serif" font-size="18" font-weight="800" text-anchor="middle">Capa IoT Edge</text>
+    <text x="100" y="145" fill="#94A3B8" font-family="system-ui, sans-serif" font-size="13" text-anchor="middle">Sensores Ultrasónicos</text>
+    <text x="100" y="168" fill="#94A3B8" font-family="system-ui, sans-serif" font-size="13" text-anchor="middle">GPS Cisternas OBD-II</text>
+    <text x="100" y="195" fill="#38BDF8" font-family="system-ui, sans-serif" font-size="12" font-weight="700" text-anchor="middle">MQTT / REST Telemetría</text>
+  </g>
+
+  <!-- Node 2: Backend Microservices -->
+  <g transform="translate(400, 220)">
+    <rect width="240" height="240" rx="16" fill="rgba(15, 43, 72, 0.85)" stroke="#38BDF8" stroke-width="2" filter="url(#archGlow)"/>
+    <circle cx="120" cy="50" r="28" fill="rgba(56, 189, 248, 0.3)" stroke="#38BDF8" stroke-width="2"/>
+    <text x="120" y="58" fill="#FFFFFF" font-family="system-ui, sans-serif" font-size="24" text-anchor="middle">⚙️</text>
+    <text x="120" y="115" fill="#FFFFFF" font-family="system-ui, sans-serif" font-size="18" font-weight="800" text-anchor="middle">Backend Core API</text>
+    <text x="120" y="145" fill="#94A3B8" font-family="system-ui, sans-serif" font-size="13" text-anchor="middle">Spring Boot 3.x / Java 21</text>
+    <text x="120" y="168" fill="#94A3B8" font-family="system-ui, sans-serif" font-size="13" text-anchor="middle">Algoritmo de Despacho</text>
+    <text x="120" y="195" fill="#10B981" font-family="system-ui, sans-serif" font-size="12" font-weight="700" text-anchor="middle">Spring Security + JWT</text>
+  </g>
+
+  <!-- Node 3: Frontend Web Client -->
+  <g transform="translate(760, 220)">
+    <rect width="240" height="240" rx="16" fill="rgba(15, 43, 72, 0.7)" stroke="#0284C7" stroke-width="2"/>
+    <circle cx="120" cy="50" r="28" fill="rgba(2, 132, 199, 0.3)" stroke="#38BDF8" stroke-width="2"/>
+    <text x="120" y="58" fill="#FFFFFF" font-family="system-ui, sans-serif" font-size="24" text-anchor="middle">💻</text>
+    <text x="120" y="115" fill="#FFFFFF" font-family="system-ui, sans-serif" font-size="18" font-weight="800" text-anchor="middle">Frontend SPA &amp; Web</text>
+    <text x="120" y="145" fill="#94A3B8" font-family="system-ui, sans-serif" font-size="13" text-anchor="middle">Angular 19 / TypeScript</text>
+    <text x="120" y="168" fill="#94A3B8" font-family="system-ui, sans-serif" font-size="13" text-anchor="middle">WebSockets Telemetría</text>
+    <text x="120" y="195" fill="#38BDF8" font-family="system-ui, sans-serif" font-size="12" font-weight="700" text-anchor="middle">Responsive Dashboard</text>
+  </g>
+
+  <!-- Node 4: Database & Cloud Persistence -->
+  <g transform="translate(400, 500)">
+    <rect width="240" height="150" rx="14" fill="rgba(2, 12, 27, 0.9)" stroke="rgba(56, 189, 248, 0.3)" stroke-width="1.5"/>
+    <text x="120" y="40" fill="#F8FAFC" font-family="system-ui, sans-serif" font-size="16" font-weight="700" text-anchor="middle">Persistencia &amp; Cloud</text>
+    <text x="120" y="70" fill="#94A3B8" font-family="system-ui, sans-serif" font-size="13" text-anchor="middle">PostgreSQL Relacional</text>
+    <text x="120" y="95" fill="#94A3B8" font-family="system-ui, sans-serif" font-size="13" text-anchor="middle">Supabase / Cloud Hosting</text>
+    <text x="120" y="125" fill="#10B981" font-family="system-ui, sans-serif" font-size="12" font-weight="600" text-anchor="middle">Auditoría Transaccional 100%</text>
+  </g>
+</svg>

@@ -1,0 +1,596 @@
+{
+  "navbar": {
+    "home": "Home",
+    "features": "IoT Features",
+    "growers": "Distributors",
+    "specialists": "Service Stations",
+    "pricing": "Pricing",
+    "testimonials": "Testimonials",
+    "aboutUs": "About Us",
+    "contact": "Contact",
+    "getStarted": "Get Started"
+  },
+  "hero": {
+    "title": "Smart Tank Monitoring,\nReliable Logistics\nand Zero Fuel Outages.",
+    "subtitle": "FuelGuard connects IoT telemetry in customer storage tanks with automatic order generation, capacity-verified tanker dispatch, and end-to-end traceability for fuel distributors.",
+    "cta": "Request a Demo!",
+    "seePlans": "View Plans",
+    "siteCredit": "SITE BY FUELGUARD TEAM • UPC",
+    "language": "EN | ES",
+    "sound": "SOUND"
+  },
+  "aria": {
+    "mainNavigation": "Main FuelGuard navigation",
+    "landingSections": "FuelGuard landing page sections",
+    "goHome": "Go to FuelGuard home",
+    "getStarted": "Get started with FuelGuard",
+    "heroActions": "Hero main actions",
+    "languageToggle": "Switch language between English and Spanish",
+    "soundToggle": "Toggle ambient sound",
+    "mobileNav": "Mobile navigation drawer",
+    "closeMenu": "Close menu",
+    "problemCards": "Logistics problem cards",
+    "problemSolution": "Problem and solution section",
+    "solutionCarousel": "FuelGuard platform capabilities carousel",
+    "prevSolution": "Previous solution card",
+    "nextSolution": "Next solution card",
+    "segments": "User workflows for Distributors and Buyers",
+    "pricingSection": "Pricing plans section",
+    "prevPlan": "Previous pricing plan",
+    "nextPlan": "Next pricing plan",
+    "producerTicket": "Base digital plan ticket for distributors",
+    "specialistTicket": "Corporate IoT plan ticket with telemetry",
+    "startTrial": "Start FuelGuard registration",
+    "aboutSection": "About FuelGuard and the engineering team",
+    "testimonialsSection": "FuelGuard customer testimonials",
+    "contactSection": "FuelGuard contact form",
+    "youtube": "YouTube",
+    "facebook": "Facebook",
+    "twitter": "Twitter",
+    "instagram": "Instagram",
+    "linkedin": "LinkedIn",
+    "closeLegal": "Close legal panel"
+  },
+  "aboutIntro": {
+    "eyebrow": "Built for the hydrocarbon logistics sector",
+    "title": "Convert physical tank levels into automatic dispatch orders. Monitor volume in real time, anticipate critical replenishment 48 hours in advance, and secure every delivery with satellite geofencing.",
+    "marquee": {
+      "satellite": "24/7 IoT Telemetry",
+      "farming": "Fuel Logistics",
+      "grow": "Zero Stockouts"
+    }
+  },
+  "problemCards": {
+    "sectionLabel": "Industry Challenge",
+    "tag": "THE OPERATIONAL BOTTLENECK",
+    "title": "Traditional fuel distribution leaves too much to chance",
+    "description": "Manual dipstick measurements, reactive WhatsApp requests, and empirical tanker fleet allocation lead to heavy financial losses from stockouts, excessive freight costs, and zero operational traceability.",
+    "cta": "See How FuelGuard Solves It",
+    "ctaAria": "Go to FuelGuards technological solution",
+    "cardsTitle": "Current Critical Pain Points",
+    "cards": {
+      "yields": {
+        "title": "Manual Dipsticking & Fuel Stockouts",
+        "number": "01",
+        "description": "Stations still check tanks using physical dipsticks or Excel. This triggers human errors, unmonitored evaporation losses, and 2-3 hours of delay per order, causing catastrophic stockouts during high-demand holidays."
+      },
+      "pests": {
+        "title": "Chaotic Emergency Orders",
+        "number": "02",
+        "description": "Between 35% and 45% of delivery requests arrive as last-minute emergencies via phone calls and WhatsApp chats. This shatters the distributors scheduled routes, forces half-loaded trucks, and skyrockets freight expenses."
+      },
+      "climate": {
+        "title": "Fleet Allocation Without Capacity Checks",
+        "number": "03",
+        "description": "Manually assigning drivers and tankers without verifying volume against tank compartment capacity results in severe delivery delays, capacity mismatches, and compliance risks with safety regulations."
+      }
+    }
+  },
+  "problemSolution": {
+    "problemPanel": {
+      "introText": "Hydrocarbon supply cannot depend on frantic phone calls or imprecise dipsticks. With FuelGuard, every connected tank continuously broadcasts its level in real time, anticipating demand before business operations halt.",
+      "expandedText": "FuelGuard bridges IoT telemetry in stationary tanks with tanker fleet dispatching in a seamless B2B end-to-end platform."
+    }
+  },
+  "solutionPanel": {
+    "eyebrow": "THE FUELGUARD SOLUTION",
+    "title": "Turn telemetry data into automated dispatching",
+    "subtitle": "Predict demand. Dispatch with pinpoint accuracy.",
+    "cards": {
+      "alerts": {
+        "title": "Tank IoT Monitoring",
+        "description": "Hydrostatic and ultrasonic sensors transmit 24/7 tank readings in underground or surface tanks, flagging critical thresholds automatically."
+      },
+      "marketplace": {
+        "title": "Automated Order Generation",
+        "description": "Once a safety threshold is reached, the system creates the order with product type, required volume, available space (ullage), and delivery window."
+      },
+      "ndvi": {
+        "title": "B2B Dispatch Management",
+        "description": "A centralized dashboard where distributors accept or reject orders in one click, verify bank deposit slips, and manage fulfillment."
+      },
+      "chill": {
+        "title": "Smart Fleet Allocation",
+        "description": "The matching engine pairs the order with an eligible driver and a tanker whose capacity fits the requested volume, eliminating allocation mistakes."
+      },
+      "nutrition": {
+        "title": "Geofencing & Valve Lock",
+        "description": "En-route telemetry and electronic valve unlocking: discharge valves are only authorized when the tanker is inside the verified customer coordinates."
+      },
+      "climate": {
+        "title": "Digital Delivery Docket",
+        "description": "Auditable digital delivery receipt with initial and final meter readings, discharge duration, and recipient signatures compliant with OSINERGMIN."
+      }
+    }
+  },
+  "expectedOutcomes": {
+    "eyebrow": "Operational Results & Metrics",
+    "title": "OPTIMIZE YOUR LOGISTICS OPERATION AND PREVENT COSTLY FUEL OUTAGES.",
+    "metrics": {
+      "delivery": {
+        "value": "-40%",
+        "label": "Dispatch Management and Allocation Time"
+      },
+      "growers": {
+        "value": "0%",
+        "label": "Capacity Mismatch Errors in Tanker Allocation"
+      },
+      "specialists": {
+        "value": "80%+",
+        "label": "Orders Automatically Generated via IoT"
+      },
+      "reduction": {
+        "value": "100%",
+        "label": "Traceability via Geofencing & Digital Docket"
+      }
+    },
+    "recommendation": {
+      "eyebrow": "FuelGuard Operational Recommendation",
+      "title": "NEVER HALT A STATION DUE TO FUEL DEPLETION",
+      "description": "With FuelGuard, your distributor knows 48 to 72 hours beforehand exactly when your tank requires replenishment. Say goodbye to manual dipsticks and emergency dispatches: run your operations with guaranteed supply.",
+      "cta": "Explore the FuelGuard Platform",
+      "ctaAria": "Explore the FuelGuard platform"
+    }
+  },
+  "featureProduct": {
+    "brand": "FuelGuard",
+    "tagline": "The Smart Guardian of Your Fuel Supply.\n24/7 Continuous Operation.",
+    "eyebrow": "INTEGRATED LOGISTICS TELEMETRY",
+    "title": "Your tank alerts.\nYour fleet responds.",
+    "playAria": "Play FuelGuard presentation video",
+    "moreAria": "Show solution architecture and details",
+    "youtubeAria": "Watch video on YouTube",
+    "cta": "Request a Live Demo",
+    "moreText": "FuelGuard synchronizes continuous readings from IoT sensors in customer tanks with the distributor dispatch portal. It verifies bank payment slips, assigns tankers matching exact compartment volume, monitors routes with live geofences, and keeps discharge valves locked until reaching authorized coordinates."
+  },
+  "roleBenefits": {
+    "sectionLabel": "Segment Workflows",
+    "growersTitle": "Fuel Distributors",
+    "specialistsTitle": "Stations & Buyers",
+    "title": "A comprehensive solution for both sides of the fuel supply chain",
+    "description": "Whether you are a logistics distributor operating a tanker fleet or a station manager looking to ensure uninterrupted fuel stock, FuelGuard tailors its workflow to your requirements.",
+    "navAria": "Navigate between user profiles",
+    "growersLinkAria": "View benefits for Fuel Distributors",
+    "specialistsLinkAria": "View benefits for Service Stations",
+    "story": {
+      "growers": {
+        "eyebrow": "Fuel Distributors",
+        "steps": [
+          {
+            "title": "Register fleet and authorized drivers",
+            "description": "Set up your tankers with gross capacity, compartments, and fuel types, alongside driver certifications and hazardous material licenses.",
+            "bullets": [
+              "Centralized management of tanker units and fuel compatibility.",
+              "Verification of licensed commercial drivers and compliance status.",
+              "Real-time availability monitoring to prevent fleet bottlenecks."
+            ],
+            "cta": "Configure Tanker Fleet"
+          },
+          {
+            "title": "Receive IoT-triggered order requests",
+            "description": "Eliminate chaotic phone calls and messaging chats. Incoming orders are cleanly formatted with volume, product, destination, and delivery date.",
+            "bullets": [
+              "Automatic sensor trigger whenever client tank falls below safety threshold.",
+              "Centralized order pipeline displaying urgency ratings.",
+              "Streamlined validation of bank deposit slips and purchase orders."
+            ],
+            "cta": "View Order Pipeline"
+          },
+          {
+            "title": "Assign resources with verified capacity",
+            "description": "FuelGuards allocation engine pairs orders with compatible tankers, strictly verifying that capacity meets or exceeds requested volume.",
+            "bullets": [
+              "Zero instances of tankers dispatched with inadequate capacity.",
+              "Automated suggestions based on vehicle availability, route, and priority.",
+              "Instant confirmation dispatched to buyer with assigned unit details."
+            ],
+            "cta": "Explore Fleet Allocation"
+          },
+          {
+            "title": "Supervise en route and settle deliveries",
+            "description": "Track the vehicle under active geofencing, authorize discharge upon arrival, and generate an auditable digital delivery receipt.",
+            "bullets": [
+              "Electronic valve lockout enforced whenever unit is outside geofence.",
+              "Automated recording of fuel level before and after discharge.",
+              "Digital receipt generation compliant with OSINERGMIN safety audits."
+            ],
+            "cta": "Start as a Distributor"
+          }
+        ]
+      },
+      "specialists": {
+        "eyebrow": "Service Stations & Industrial Clients",
+        "steps": [
+          {
+            "title": "Install IoT sensors on storage tanks",
+            "description": "Link your stationary fuel tanks to the FuelGuard platform using continuous hydrostatic or ultrasonic level monitoring devices.",
+            "bullets": [
+              "Compatible with underground and above-ground diesel and gasoline tanks.",
+              "Accurate readings for current volume, fuel level, and ullage space.",
+              "No expensive proprietary consoles or complex wiring required."
+            ],
+            "cta": "Link IoT Tanks"
+          },
+          {
+            "title": "Configure replenishment safety thresholds",
+            "description": "Define the minimum percentage or gallon limit that automatically triggers a preventive restocking order before dipping into risk reserves.",
+            "bullets": [
+              "Early warnings delivered 48 to 72 hours prior to tank depletion.",
+              "Fully automated or one-click purchase approval modes.",
+              "Shield your business from running out of fuel during peak holidays."
+            ],
+            "cta": "Set Thresholds"
+          },
+          {
+            "title": "Track order dispatch in real time",
+            "description": "Observe live progress from your dashboard as your distributor approves the request, allocates the tanker, and departs toward your station.",
+            "bullets": [
+              "Clear lifecycle status: Pending, Approved, Dispatched, Delivered.",
+              "View assigned driver credentials and tanker license plate.",
+              "Estimated arrival time (ETA) and scheduled unloading window."
+            ],
+            "cta": "View Live Tracking"
+          },
+          {
+            "title": "Confirm receipt and balance inventory",
+            "description": "Confirm discharge with digital sign-off and receive certified delivery documentation to maintain accurate book inventory.",
+            "bullets": [
+              "Single-click confirmation to close out the fulfillment cycle.",
+              "Complete archive of past orders, deposits, and volume trends.",
+              "Downloadable PDF audit dossiers for regulatory compliance."
+            ],
+            "cta": "Register Service Station"
+          }
+        ]
+      }
+    },
+    "visuals": {
+      "plot": {
+        "title": "Stationary Tank #01",
+        "note": "Active IoT sensor with hydrostatic calibration.",
+        "metric": "Capacity: 10,000 gal"
+      },
+      "dashboard": {
+        "title": "Fuel Level Reading",
+        "note": "Real-time telemetry: Diesel B5 S-50.",
+        "metric": "Level: 18% (Alert)"
+      },
+      "alerts": {
+        "title": "Automatic Order",
+        "note": "Critical threshold reached: Order generated.",
+        "metric": "Order #FG-2026-89"
+      },
+      "support": {
+        "title": "Tanker & Driver",
+        "note": "Tanker T-841 (Cap. 8,000 gal) with authorized driver.",
+        "metric": "100% Allocated"
+      },
+      "profile": {
+        "title": "Discharge Geofence",
+        "note": "Verified GPS coordinates at customer station.",
+        "metric": "Inside Geofence"
+      },
+      "opportunities": {
+        "title": "Safety Valve Lock",
+        "note": "Electronic opening authorization granted.",
+        "metric": "Safe Discharge"
+      },
+      "case": {
+        "title": "Delivery Docket",
+        "note": "Delivered volume reconciled with digital signature.",
+        "metric": "Order Closed"
+      },
+      "prescription": {
+        "title": "Audit Trail",
+        "note": "Digital dossier generated for regulatory reporting.",
+        "metric": "OSINERGMIN OK"
+      }
+    }
+  },
+  "pricingIntro": {
+    "sectionLabel": "Pricing & Plans",
+    "firstTitle": "SCALABLE PLANS FOR THE FUEL SECTOR",
+    "firstSubtitle": "Modernize your fuel supply logistics without tying your business to costly proprietary hardware.",
+    "secondTitle": "HIGHER EFFICIENCY, LOWER SHRINKAGE, ZERO DOWNTIME",
+    "secondSubtitle": "Tailored for independent distributors and commercial networks with multiple associated stations."
+  },
+  "pricingPlans": {
+    "billing": {
+      "monthly": "Monthly",
+      "yearly": "Yearly (2 months free)"
+    },
+    "producer": {
+      "title": "For Distributors & Fleets",
+      "planName": "Base Digital Plan",
+      "detail1": "End-to-end B2B order management and fuel product catalog",
+      "detail2": "Tanker fleet registration and authorized driver compliance",
+      "detail3": "Validation and reconciliation of bank deposit receipts",
+      "detail4": "Dispatch order creation and digital delivery receipt generation",
+      "detail5": "Multi-user web portal for distributors and associated buyers",
+      "priceMonthly": "s/.199.00",
+      "priceYearly": "s/.1,990.00",
+      "cta": "Start Base Plan"
+    },
+    "specialist": {
+      "title": "Enterprise Distribution with IoT",
+      "planName": "Corporate IoT Plan",
+      "detail1": "Everything included in the Base Digital Plan",
+      "detail2": "24/7 IoT telemetry for underground and surface storage tanks",
+      "detail3": "Automatic order replenishment triggered by critical level thresholds",
+      "detail4": "Intelligent fleet allocation with strict tanker capacity validation",
+      "detail5": "Satellite geofencing, valve lockout, and OSINERGMIN compliance",
+      "priceMonthly": "s/.599.00",
+      "priceYearly": "s/.5,990.00",
+      "cta": "Start IoT Plan"
+    }
+  },
+  "referralsInfo": {
+    "tag": "Partner Network",
+    "title": "Connect your customer network and power modern fuel logistics.",
+    "description": "Share FuelGuard with corporate clients, service stations, mining contractors, and transport companies. As new tanks link to your IoT portal, you optimize route efficiency and unlock volume discounts on your subscription.",
+    "cta": "Get Partner Link",
+    "ctaAria": "Get logistics partner referral link",
+    "cards": {
+      "share": {
+        "title": "Connect New Stations",
+        "description": "Invite service stations and industrial facilities to connect their storage tanks to your dashboard."
+      },
+      "track": {
+        "title": "Track Active Tanks",
+        "description": "Monitor in real time which customer facilities have active IoT sensor devices transmitting."
+      },
+      "rewards": {
+        "title": "Unlock Discounts",
+        "description": "Earn preferential subscription rates based on connected tank volume and overall fuel throughput."
+      },
+      "grow": {
+        "title": "Strengthen Leadership",
+        "description": "Offer an elite proactive replenishment service that ensures long-term corporate client retention."
+      }
+    }
+  },
+  "aboutMission": {
+    "sectionLabel": "About Us",
+    "tag": "STARTUP PROFILE",
+    "title": "Our Mission",
+    "subtitle": "IoT innovation driving reliability in hydrocarbon logistics.",
+    "builtBy": "Developed by FuelGuard Team",
+    "focusedOn": "Specialized in B2B Fuel Supply Logistics",
+    "statement": "We digitize fuel distribution logistics to eradicate unplanned stockouts and dispatch errors.",
+    "description": "FuelGuard is a B2B platform engineered for fuel transport and distribution enterprises operating tanker fleets. We connect IoT level sensors in customer storage tanks with a centralized platform that automates replenishment, verifies tanker vehicle capacity, enforces geofenced unloading security, and ensures compliance with OSINERGMIN safety regulations.",
+    "cta": "Meet the Team",
+    "ctaAria": "Meet the FuelGuard development team"
+  },
+  "learningFromBest": {
+    "title": "Architectural Drivers and Standards"
+  },
+  "segmentSummary": {
+    "title": "Every logistics operation deserves tailored precision tools.",
+    "aria": "Solution component summary cards",
+    "button": "Explore",
+    "cards": [
+      {
+        "audience": "For Tanker Fleet Distributors",
+        "title": "IOT TELEMETRY",
+        "price": "s/.199",
+        "priceUnit": "/ mo",
+        "description": "Continuous monitoring of client tanks with real-time telemetry and critical threshold alerts.",
+        "bullets": [
+          "Continuous reading of volume and ullage",
+          "Instant detection of abnormal level drops",
+          "Fault-tolerant offline data synchronization",
+          "Comprehensive telemetry historical logs"
+        ],
+        "color": "#1E3A5F"
+      },
+      {
+        "audience": "For Tanker Fleet Distributors",
+        "title": "DISPATCH PRO",
+        "price": "s/.199",
+        "priceUnit": "/ mo",
+        "description": "Automated matching and recommendation of tanker and driver matching requested volume.",
+        "bullets": [
+          "Strict verification of capacity vs order volume",
+          "Filter by certified hazardous material drivers",
+          "Elimination of fleet capacity mismatch errors",
+          "Scheduling of customer discharge windows"
+        ],
+        "color": "#D97706"
+      },
+      {
+        "audience": "For Tanker Fleet Distributors",
+        "title": "GEOFENCE & VALVE",
+        "price": "s/.199",
+        "priceUnit": "/ mo",
+        "description": "En-route cargo security and electronic valve discharge authorization restricted to destination.",
+        "bullets": [
+          "Live GPS tracking and satellite geofences",
+          "Electronic valve lockout outside designated zone",
+          "Prevention of fuel pilferage and unauthorized dumps",
+          "Regulatory compliance with OSINERGMIN standards"
+        ],
+        "color": "#0F172A"
+      },
+      {
+        "audience": "For Stations & Buyers",
+        "title": "AUTO-ORDER",
+        "price": "s/.599",
+        "priceUnit": "/ mo",
+        "description": "Automatic fuel replenishment generation triggered upon reaching safety thresholds.",
+        "bullets": [
+          "No phone calls or manual WhatsApp messages",
+          "Automatic calculation of replenishment volume",
+          "One-click purchase confirmation setting",
+          "Instant notification of distributor acceptance"
+        ],
+        "color": "#F8FAFC"
+      },
+      {
+        "audience": "For Stations & Buyers",
+        "title": "LIVE TRACEABILITY",
+        "price": "s/.599",
+        "priceUnit": "/ mo",
+        "description": "End-to-end status visibility from refinery loading to station discharge.",
+        "bullets": [
+          "Statuses: Approved, Assigned, Dispatched, Delivered",
+          "Identification of assigned tanker and driver",
+          "Estimated arrival time (ETA) to your facility",
+          "Direct validation of bank deposit receipts"
+        ],
+        "color": "#0284C7"
+      },
+      {
+        "audience": "For Stations & Buyers",
+        "title": "AUDIT DOSSIER",
+        "price": "s/.599",
+        "priceUnit": "/ mo",
+        "description": "Digital delivery docket certifying delivered gallons for balance sheet and tax auditing.",
+        "bullets": [
+          "Certified start and end discharge meter values",
+          "Digital recipient conformity signature",
+          "Instant PDF receipt download",
+          "Audit backup for monthly inventory logs"
+        ],
+        "color": "#1E3A5F"
+      }
+    ]
+  },
+  "testimonials": {
+    "sectionLabel": "Validation & Case Studies",
+    "tag": "MARKET FEEDBACK",
+    "title": "What industry leaders say about FuelGuard",
+    "description": "In-depth qualitative interviews conducted with station administrators and logistics managers validate the immense impact of replacing manual processes with FuelGuard.",
+    "cards": [
+      {
+        "quote": "Every mismatched tanker is not just an operational error, it is a corporate client we could lose. With FuelGuard we stopped coordinating over WhatsApp and verify tanker capacity before units hit the road.",
+        "author": "Marco Salazar",
+        "role": "Head of Operations & Dispatch",
+        "company": "Fuel Logistics Distribution (Lima)"
+      },
+      {
+        "quote": "Between 25% and 30% of our weekly orders were urgent due to unmonitored stock depletion. With IoT threshold detection we transitioned to a proactive model that lets us consolidate 10,000-gallon runs.",
+        "author": "Patricia Valdivia",
+        "role": "Logistics & Operations Manager",
+        "company": "Hydrocarbon Transport & Distribution"
+      },
+      {
+        "quote": "Running out of diesel over holiday weekends was an operational nightmare that cost us fleet accounts. Now the sensor measures around the clock and orders generate in one click, eliminating dipstick risks.",
+        "author": "Carlos Campoblanco",
+        "role": "Service Station Manager",
+        "company": "Southern Fuel Station Network"
+      },
+      {
+        "quote": "Checking tanks manually with a dipstick took almost 3 hours every day. FuelGuard gives us peace of mind with exact telemetry data and zero fear of duplicate purchase orders.",
+        "author": "Sebastián Rojas",
+        "role": "Gas Station Administrator",
+        "company": "North-Eastern Station Network"
+      },
+      {
+        "quote": "Receiving alerts 48 to 72 hours ahead transformed our profitability. We stopped assembling expensive emergency runs and now have clear visibility of gallons, tankers, and transaction codes.",
+        "author": "Carlos Miranda",
+        "role": "Logistics Director",
+        "company": "Wholesale Fuel Distributor"
+      }
+    ]
+  },
+  "contact": {
+    "sectionLabel": "Contact & Demo",
+    "title": "Talk to the FuelGuard Team",
+    "subtitle": "Ready to modernize your fuel logistics? Leave your details and an engineering specialist will coordinate a live technical demo.",
+    "getInTouch": {
+      "label": "Direct Channels",
+      "talkToUs": "Technical & Commercial Inquiries",
+      "writeUs": "contacto@fuelguard.pe"
+    },
+    "address": {
+      "label": "Academic & Research Headquarters",
+      "location": "Peruvian University of Applied Sciences (UPC)<br />Software Engineering Program — Lima, Peru",
+      "googleMaps": "View Location",
+      "openForm": "Open Contact Form",
+      "sendMessage": "Submit Request"
+    },
+    "form": {
+      "nameLabel": "Full Name",
+      "namePlaceholder": "E.g. Marco Salazar",
+      "emailLabel": "Corporate Email",
+      "emailPlaceholder": "marco.salazar@company.com",
+      "phoneLabel": "Phone / Mobile",
+      "phonePlaceholder": "+51 987 654 321",
+      "companyLabel": "Company Name",
+      "companyPlaceholder": "E.g. Hydrocarbon Logistics S.A.C.",
+      "segmentLabel": "Company Type",
+      "segmentOptions": {
+        "distributor": "Logistics Distributor with Tanker Fleet",
+        "station": "Service Station / Fuel Dealer",
+        "industrial": "Industrial Consumer / Mining / Construction",
+        "other": "Other Industry Agent"
+      },
+      "messageLabel": "Message or Requirements",
+      "messagePlaceholder": "Tell us about your operations: number of tanks or tanker units...",
+      "submit": "Submit Information Request",
+      "successTitle": "Message Sent Successfully!",
+      "successMessage": "Thank you for reaching out to FuelGuard. A technical representative will contact you shortly.",
+      "errorTitle": "Form Validation Error",
+      "errorMessage": "Please fill in all required fields with valid details."
+    }
+  },
+  "teamMembers": {
+    "title": "Engineering Team — FuelGuard",
+    "cta": "View Profiles",
+    "role": "Software Engineering • UPC",
+    "toggleVideo": "Product Video",
+    "toggleImage": "Project Gallery",
+    "videoPlayAria": "Play FuelGuard presentation video",
+    "videoCloseAria": "Close video player",
+    "videoYoutubeAria": "Watch explainer video on YouTube",
+    "footerText": "We are Software Engineering students at the Peruvian University of Applied Sciences (UPC). We developed FuelGuard combining software architecture principles, Lean UX methodologies, and C4 modeling to resolve a critical friction point in fuel distribution."
+  },
+  "finalCta": {
+    "title": "The Future of Fuel Logistics Starts Today",
+    "subtitle": "Connect your tanks with IoT telemetry and optimize every fleet dispatch with certified traceability.",
+    "button": "Get Started with FuelGuard",
+    "buttonAria": "Get started with FuelGuard today"
+  },
+  "footer": {
+    "bigLinks": {
+      "features": "IOT FEATURES",
+      "growers": "DISTRIBUTORS",
+      "specialists": "STATIONS",
+      "pricing": "PRICING"
+    },
+    "credit": "FUELGUARD — SOFTWARE ARCHITECTURE FUNDAMENTALS 2026",
+    "links": {
+      "home": "Home",
+      "about": "About Us",
+      "contact": "Contact",
+      "terms": "Terms of Service",
+      "privacy": "Privacy Policy"
+    },
+    "newsletterText": "Continuous fuel supply and verified traceability. Join distributors and stations operating with FuelGuard.",
+    "emailLabel": "Corporate email",
+    "emailPlaceholder": "Corporate email",
+    "subscribe": "subscribe",
+    "tryViora": "Try FuelGuard Now",
+    "followUs": "FOLLOW US:"
+  }
+}
