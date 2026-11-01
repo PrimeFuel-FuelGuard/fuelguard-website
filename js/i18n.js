@@ -45,51 +45,6 @@ export class I18nService {
                 el.innerHTML = value.replace(/\n/g, '<br />');
             }
         });
-
-        document.querySelectorAll('[data-i18n-aria-label], [data-i18n-aria]').forEach(el => {
-            const attr = el.hasAttribute('data-i18n-aria-label') ? 'data-i18n-aria-label' : 'data-i18n-aria';
-            const value = this.getTranslationValue(el.getAttribute(attr));
-            if (typeof value === 'string') {
-                el.setAttribute('aria-label', value);
-            }
-        });
-
-        document.querySelectorAll('[data-i18n-placeholder]').forEach(el => {
-            const value = this.getTranslationValue(el.getAttribute('data-i18n-placeholder'));
-            if (typeof value === 'string') {
-                el.setAttribute('placeholder', value);
-            }
-        });
-
-        document.querySelectorAll('[data-i18n-title]').forEach(el => {
-            const value = this.getTranslationValue(el.getAttribute('data-i18n-title'));
-            if (typeof value === 'string') {
-                el.setAttribute('title', value);
-            }
-        });
-    }
-
-    getTranslationValue(path) {
-        if (!path) return null;
-        const keys = path.split('.');
-        let value = this.translations;
-        for (const key of keys) {
-            if (value && value.hasOwnProperty(key)) {
-                value = value[key];
-            } else {
-                return null;
-            }
-        }
-        return value;
-    }
-
-    subscribe(callback) {
-        this.subscribers.push(callback);
-    }
-
-    notifySubscribers() {
-        this.subscribers.forEach(cb => cb(this.currentLang));
-    }
 }
 
 export const i18n = new I18nService();
