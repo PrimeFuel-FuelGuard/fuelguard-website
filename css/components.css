@@ -1,124 +1,331 @@
+/* ==========================================================================
+   Botones de la landing page
+   ========================================================================== */
 
+/* Contenedor del efecto "magnético": se comporta como elemento en línea
+   pero permite usar flexbox en su interior */
 .magnetic-target {
     display: inline-flex;
 }
 
+/* --------------------------------------------------------------------------
+   Estilos base del botón
+   -------------------------------------------------------------------------- */
 .landing-button {
-    min-width: 11.5rem;
-    min-height: 3.5rem;
-    padding: 0 2.25rem;
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 24px;
-    font-family: var(--font-family-primary);
-    font-size: 1.125rem;
-    font-weight: 500;
-    line-height: 1;
-    text-decoration: none;
-    transition: background-color 0.2s ease, color 0.2s ease, transform 0.2s ease;
-    cursor: pointer;
-    border: none;
+    min-width: 11.5rem;                         /* Ancho mínimo para que todos los botones se vean uniformes */
+    min-height: 3.5rem;                         /* Alto mínimo (56px aprox.) */
+    padding: 0 2.25rem;                         /* Solo padding horizontal; el alto lo define min-height */
+    display: inline-flex;                       /* Permite alinear contenido con flexbox sin ocupar todo el ancho */
+    align-items: center;                        /* Centra el contenido verticalmente */
+    justify-content: center;                    /* Centra el contenido horizontalmente */
+    border-radius: 24px;                        /* Esquinas redondeadas */
+    font-family: var(--font-family-primary);    /* Fuente principal definida como variable global */
+    font-size: 1.125rem;                        /* Tamaño de texto (18px aprox.) */
+    font-weight: 500;                           /* Peso medio */
+    line-height: 1;                             /* Evita espacio extra arriba/abajo del texto */
+    text-decoration: none;                      /* Quita el subrayado cuando se usa en un <a> */
+    transition: background-color 0.2s ease, color 0.2s ease, transform 0.2s ease; /* Animaciones suaves al interactuar */
+    cursor: pointer;                            /* Cursor de mano al pasar sobre el botón */
+    border: none;                               /* Elimina el borde por defecto del navegador */
 }
 
+/* --------------------------------------------------------------------------
+   Variante: botón circular solo con icono
+   -------------------------------------------------------------------------- */
 .landing-button--icon {
-    min-width: 3.5rem;
+    min-width: 3.5rem;                          /* Ancho igual al alto para formar un círculo */
     width: 3.5rem;
     height: 3.5rem;
-    padding: 0;
-    border-radius: 50%;
+    padding: 0;                                 /* Sin padding, el icono va centrado */
+    border-radius: 50%;                         /* Forma circular */
 }
 
+/* Imagen del icono dentro del botón circular */
 .landing-button__icon-img {
     width: 24px;
     height: 24px;
-    object-fit: contain;
+    object-fit: contain;                        /* Mantiene la proporción del icono sin deformarlo */
 }
 
+/* Contenedor del texto del botón (alineado con flexbox) */
 .landing-button__label {
     display: inline-flex;
     align-items: center;
 }
 
+/* Icono que aparece al final del texto (por ejemplo, una flecha) */
 .landing-button__trailing-icon {
     width: 1.15rem;
     height: 1.15rem;
-    margin-left: 0.45rem;
+    margin-left: 0.45rem;                       /* Separación entre el texto y el icono */
     object-fit: contain;
-    filter: brightness(0) invert(1);
+    filter: brightness(0) invert(1);            /* Convierte el icono a blanco, sin importar su color original */
 }
 
+/* --------------------------------------------------------------------------
+   Variante: botón primario (claro, para fondos oscuros)
+   -------------------------------------------------------------------------- */
 .landing-button--primary {
-    color: var(--color-ink);
-    background: #E8E4DF;
+    color: var(--color-ink);                    /* Texto oscuro */
+    background: #E8E4DF;                        /* Fondo crema claro */
     box-shadow:
-            inset 0 1px 0 rgba(255, 255, 255, 0.8),
-            0 18px 38px rgba(0, 0, 0, 0.18);
+            inset 0 1px 0 rgba(255, 255, 255, 0.8),   /* Brillo sutil en el borde superior interno */
+            0 18px 38px rgba(0, 0, 0, 0.18);          /* Sombra externa para dar profundidad */
 }
 
+/* Al pasar el cursor, el fondo se vuelve blanco puro */
 .landing-button--primary:hover {
     background: #FFFFFF;
 }
 
+/* --------------------------------------------------------------------------
+   Variante: botón secundario (solo define el color del texto)
+   -------------------------------------------------------------------------- */
 .landing-button--secondary {
     color: var(--color-white);
 }
 
+/* --------------------------------------------------------------------------
+   Variante: botón verde
+   -------------------------------------------------------------------------- */
 .landing-button--green {
     color: var(--color-white);
-    background: var(--color-primary); /* Dark Green */
+    background: var(--color-primary);           /* Verde oscuro (color principal de la marca) */
     box-shadow:
-            inset 0 1px 0 rgba(255, 255, 255, 0.12),
-            0 18px 38px rgba(0, 0, 0, 0.18);
+            inset 0 1px 0 rgba(255, 255, 255, 0.12),  /* Brillo interno superior */
+            0 18px 38px rgba(0, 0, 0, 0.18);          /* Sombra externa */
 }
 
+/* Verde un poco más oscuro al pasar el cursor */
 .landing-button--green:hover {
     background: #253d30;
 }
 
+/* --------------------------------------------------------------------------
+   Variante: botón naranja
+   -------------------------------------------------------------------------- */
 .landing-button--orange {
     color: var(--color-white);
-    background: var(--color-accent);
+    background: var(--color-accent);            /* Color de acento de la marca */
     box-shadow:
-            inset 0 1px 0 rgba(255, 255, 255, 0.16),
-            0 18px 38px rgba(193, 90, 46, 0.20);
+            inset 0 1px 0 rgba(255, 255, 255, 0.16),  /* Brillo interno superior */
+            0 18px 38px rgba(193, 90, 46, 0.20);      /* Sombra con tono naranja */
 }
 
+/* Naranja más oscuro al pasar el cursor */
 .landing-button--orange:hover {
     background: #ad4f28;
 }
 
-/* When liquid-glass is combined with a color variant, preserve the solid
-   background and only layer the glass shimmer + border on top */
+/* --------------------------------------------------------------------------
+   Efecto "liquid glass" combinado con las variantes de color
+   Cuando se combinan, se conserva el fondo sólido de la variante y solo se
+   añade encima el borde y el brillo del efecto cristal en la página
+   -------------------------------------------------------------------------- */
 .landing-button.liquid-glass {
-    border: 1px solid var(--glass-border-color, rgba(255, 255, 255, 0.22));
-    /* Reset the glass background — the variant's solid color takes priority */
+    border: 1px solid var(--glass-border-color, rgba(255, 255, 255, 0.22)); /* Borde translúcido (con valor por defecto) */
+    /* Se anula el fondo de cristal: el color sólido de la variante tiene prioridad */
     background: var(--btn-solid-bg);
-    backdrop-filter: none;
-    -webkit-backdrop-filter: none;
+    backdrop-filter: none;                      /* Desactiva el desenfoque del fondo */
+    -webkit-backdrop-filter: none;              /* Prefijo para Safari */
 }
 
+/* Verde + cristal: mantiene el verde sólido y añade un brillo interno */
 .landing-button--green.liquid-glass {
-    --btn-solid-bg: var(--color-primary);
+    --btn-solid-bg: var(--color-primary);       /* Variable usada por la regla .liquid-glass */
     background: var(--color-primary);
     box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.18);
 }
 
+/* Hover del verde con cristal (un poco más claro que el verde normal) */
 .landing-button--green.liquid-glass:hover {
     background: #2d4f3c;
 }
 
+/* Naranja + cristal: mantiene el naranja sólido y añade un brillo interno */
 .landing-button--orange.liquid-glass {
     --btn-solid-bg: var(--color-accent);
     background: var(--color-accent);
     box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.18);
 }
 
+/* Hover del naranja con cristal */
 .landing-button--orange.liquid-glass:hover {
     background: #ad4f28;
 }
 
+/* --------------------------------------------------------------------------
+   Responsive: pantallas de hasta 680px (móviles)
+   -------------------------------------------------------------------------- */
 @media (max-width: 680px) {
+    /* Los botones con texto ocupan todo el ancho disponible (hasta 18rem);
+       los botones de icono se excluyen para que sigan siendo circulares */
+    .landing-button:not(.landing-button--icon) {
+        width: 100%;
+        max-width: 18rem;
+    }
+}/* ==========================================================================
+   Botones de la landing page
+   ========================================================================== */
+
+/* Contenedor del efecto "magnético": se comporta como elemento en línea
+   pero permite usar flexbox en su interior */
+.magnetic-target {
+    display: inline-flex;
+}
+
+/* --------------------------------------------------------------------------
+   Estilos base del botón
+   -------------------------------------------------------------------------- */
+.landing-button {
+    min-width: 11.5rem;                         /* Ancho mínimo para que todos los botones se vean uniformes */
+    min-height: 3.5rem;                         /* Alto mínimo (56px aprox.) */
+    padding: 0 2.25rem;                         /* Solo padding horizontal; el alto lo define min-height */
+    display: inline-flex;                       /* Permite alinear contenido con flexbox sin ocupar todo el ancho */
+    align-items: center;                        /* Centra el contenido verticalmente */
+    justify-content: center;                    /* Centra el contenido horizontalmente */
+    border-radius: 24px;                        /* Esquinas redondeadas */
+    font-family: var(--font-family-primary);    /* Fuente principal definida como variable global */
+    font-size: 1.125rem;                        /* Tamaño de texto (18px aprox.) */
+    font-weight: 500;                           /* Peso medio */
+    line-height: 1;                             /* Evita espacio extra arriba/abajo del texto */
+    text-decoration: none;                      /* Quita el subrayado cuando se usa en un <a> */
+    transition: background-color 0.2s ease, color 0.2s ease, transform 0.2s ease; /* Animaciones suaves al interactuar */
+    cursor: pointer;                            /* Cursor de mano al pasar sobre el botón */
+    border: none;                               /* Elimina el borde por defecto del navegador */
+}
+
+/* --------------------------------------------------------------------------
+   Variante: botón circular solo con icono
+   -------------------------------------------------------------------------- */
+.landing-button--icon {
+    min-width: 3.5rem;                          /* Ancho igual al alto para formar un círculo */
+    width: 3.5rem;
+    height: 3.5rem;
+    padding: 0;                                 /* Sin padding, el icono va centrado */
+    border-radius: 50%;                         /* Forma circular */
+}
+
+/* Imagen del icono dentro del botón circular */
+.landing-button__icon-img {
+    width: 24px;
+    height: 24px;
+    object-fit: contain;                        /* Mantiene la proporción del icono sin deformarlo */
+}
+
+/* Contenedor del texto del botón (alineado con flexbox) */
+.landing-button__label {
+    display: inline-flex;
+    align-items: center;
+}
+
+/* Icono que aparece al final del texto (por ejemplo, una flecha) */
+.landing-button__trailing-icon {
+    width: 1.15rem;
+    height: 1.15rem;
+    margin-left: 0.45rem;                       /* Separación entre el texto y el icono */
+    object-fit: contain;
+    filter: brightness(0) invert(1);            /* Convierte el icono a blanco, sin importar su color original */
+}
+
+/* --------------------------------------------------------------------------
+   Variante: botón primario (claro, para fondos oscuros)
+   -------------------------------------------------------------------------- */
+.landing-button--primary {
+    color: var(--color-ink);                    /* Texto oscuro */
+    background: #E8E4DF;                        /* Fondo crema claro */
+    box-shadow:
+            inset 0 1px 0 rgba(255, 255, 255, 0.8),   /* Brillo sutil en el borde superior interno */
+            0 18px 38px rgba(0, 0, 0, 0.18);          /* Sombra externa para dar profundidad */
+}
+
+/* Al pasar el cursor, el fondo se vuelve blanco puro */
+.landing-button--primary:hover {
+    background: #FFFFFF;
+}
+
+/* --------------------------------------------------------------------------
+   Variante: botón secundario (solo define el color del texto)
+   -------------------------------------------------------------------------- */
+.landing-button--secondary {
+    color: var(--color-white);
+}
+
+/* --------------------------------------------------------------------------
+   Variante: botón verde
+   -------------------------------------------------------------------------- */
+.landing-button--green {
+    color: var(--color-white);
+    background: var(--color-primary);           /* Verde oscuro (color principal de la marca) */
+    box-shadow:
+            inset 0 1px 0 rgba(255, 255, 255, 0.12),  /* Brillo interno superior */
+            0 18px 38px rgba(0, 0, 0, 0.18);          /* Sombra externa */
+}
+
+/* Verde un poco más oscuro al pasar el cursor */
+.landing-button--green:hover {
+    background: #253d30;
+}
+
+/* --------------------------------------------------------------------------
+   Variante: botón naranja
+   -------------------------------------------------------------------------- */
+.landing-button--orange {
+    color: var(--color-white);
+    background: var(--color-accent);            /* Color de acento de la marca */
+    box-shadow:
+            inset 0 1px 0 rgba(255, 255, 255, 0.16),  /* Brillo interno superior */
+            0 18px 38px rgba(193, 90, 46, 0.20);      /* Sombra con tono naranja */
+}
+
+/* Naranja más oscuro al pasar el cursor */
+.landing-button--orange:hover {
+    background: #ad4f28;
+}
+
+/* --------------------------------------------------------------------------
+   Efecto "liquid glass" combinado con las variantes de color
+   Cuando se combinan, se conserva el fondo sólido de la variante y solo se
+   añade encima el borde y el brillo del efecto cristal en la página
+   -------------------------------------------------------------------------- */
+.landing-button.liquid-glass {
+    border: 1px solid var(--glass-border-color, rgba(255, 255, 255, 0.22)); /* Borde translúcido (con valor por defecto) */
+    /* Se anula el fondo de cristal: el color sólido de la variante tiene prioridad */
+    background: var(--btn-solid-bg);
+    backdrop-filter: none;                      /* Desactiva el desenfoque del fondo */
+    -webkit-backdrop-filter: none;              /* Prefijo para Safari */
+}
+
+/* Verde + cristal: mantiene el verde sólido y añade un brillo interno */
+.landing-button--green.liquid-glass {
+    --btn-solid-bg: var(--color-primary);       /* Variable usada por la regla .liquid-glass */
+    background: var(--color-primary);
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.18);
+}
+
+/* Hover del verde con cristal (un poco más claro que el verde normal) */
+.landing-button--green.liquid-glass:hover {
+    background: #2d4f3c;
+}
+
+/* Naranja + cristal: mantiene el naranja sólido y añade un brillo interno */
+.landing-button--orange.liquid-glass {
+    --btn-solid-bg: var(--color-accent);
+    background: var(--color-accent);
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.18);
+}
+
+/* Hover del naranja con cristal */
+.landing-button--orange.liquid-glass:hover {
+    background: #ad4f28;
+}
+
+/* --------------------------------------------------------------------------
+   Responsive: pantallas de hasta 680px (móviles)
+   -------------------------------------------------------------------------- */
+@media (max-width: 680px) {
+    /* Los botones con texto ocupan todo el ancho disponible (hasta 18rem);
+       los botones de icono se excluyen para que sigan siendo circulares */
     .landing-button:not(.landing-button--icon) {
         width: 100%;
         max-width: 18rem;
